@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Payment\Model\MethodList">
+        <plugin name="BeecomPaymentRestrictionMethodListPlugin" type="\Beecom\PaymentRestriction\Plugin\MethodListPlugin" sortOrder="1" disabled="false" />
+    </type>
+</config>

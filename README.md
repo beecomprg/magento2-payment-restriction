@@ -1,1 +1,3 @@
-# magento2-payment-restriction
+Payment Restriction Module for Magento 2
+
+WIP
