@@ -25,10 +25,6 @@ jobs:
 before_install:
   - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then composer config -g http-basic.repo.magento.com $MAGENTO_USERNAME $MAGENTO_PASSWORD ; fi
   - echo "{\"http-basic\":{\"repo.magento.com\":{\"username\":\"${MAGENTO_USERNAME}\",\"password\":\"${MAGENTO_PASSWORD}\"}}}" > auth.json
-  - composer global require hirak/prestissimo:0.3.4
-  - chmod +x ./Resources/travis/*
-  - ./Resources/travis/prepare_php.sh
-  - ./Resources/travis/before_install.sh
 
 install:
   - composer install --prefer-dist
