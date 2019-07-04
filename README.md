@@ -11,7 +11,7 @@
 
 ## Installation
 
-- All the `composer require beecomprg/module-payment-restriciton`
+- All the `composer require beecomprg/module-payment-restriction`
 
 ### Clone
 
