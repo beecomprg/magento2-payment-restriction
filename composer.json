@@ -30,7 +30,7 @@
     },
     "require": {
         "magento/framework": ">=101.0.0",
-        "magento/module-payment": ">=102.0.0",
+        "magento/module-payment": "*",
         "beecomprg/module-framework": "*"
     },
     "autoload": {
