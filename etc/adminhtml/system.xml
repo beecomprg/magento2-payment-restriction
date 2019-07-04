@@ -22,7 +22,7 @@
                        showInStore="1">
                     <label>Mapping</label>
                     <frontend_model>Beecom\PaymentRestriction\Block\Adminhtml\Form\Field\Methods</frontend_model>
-                    <backend_model>Beecom\Framework\Model\System\Config\Backend\Serialized</backend_model>
+                    <backend_model>Beecom\Core\Model\System\Config\Backend\Serialized</backend_model>
                 </field>
             </group>
         </section>

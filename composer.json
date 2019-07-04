@@ -31,7 +31,7 @@
     "require": {
         "magento/framework": ">=101.0.0",
         "magento/module-payment": "*",
-        "beecomprg/module-framework": "*"
+        "beecomprg/magento-2-module-core": ">1.0.3"
     },
     "autoload": {
         "files": [

@@ -5,7 +5,7 @@ use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Store\Model\ScopeInterface;
-use Beecom\Framework\Helper\Data as FrameworkHelper;
+use Beecom\Core\Helper\Data as FrameworkHelper;
 
 
 class Checkout extends AbstractHelper
