@@ -2,7 +2,7 @@
     "name": "beecomprg/module-payment-restriction",
     "type": "magento2-module",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "authors": [{
             "name": "Lukas Beranek",
             "email": "lukas@beecom.io"

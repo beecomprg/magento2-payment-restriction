@@ -6,7 +6,6 @@ use Magento\Config\Block\System\Config\Form\Field\FieldArray\AbstractFieldArray;
 use Magento\Framework\Data\Form\Element\AbstractElement;
 use Magento\Framework\DataObject;
 use Beecom\Core\Block\Adminhtml\Form\Field\PaymentMethods;
-use Beecom\Core\Block\Adminhtml\Form\Field\ShippingMethods;
 
 class Methods extends AbstractFieldArray
 {

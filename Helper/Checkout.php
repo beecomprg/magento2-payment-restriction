@@ -13,11 +13,6 @@ class Checkout extends AbstractHelper
     const PATH_CLIENT_ENABLED = 'paymentrestriction/general/enabled';
     const PATH_PAYMENT_MAP = 'paymentrestriction/general/mapping';
 
-    protected $rates = [
-        'high' => "21.0000",
-        'low' => "15.0000"
-    ];
-
     protected $logger;
 
     protected $scopeConfig;
