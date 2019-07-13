@@ -37,10 +37,6 @@ class Checkout extends AbstractHelper
     }
 
     public function getPaymentRestrictionByCode($code, $storeId = null){
-        if(strpos($code, '_') !== false){
-            $explode = explode("_", $code);
-            $code = $explode[0];
-        }
         return $this->frameworkHelper->getMapValueByValue(self::PATH_PAYMENT_MAP, $code, $storeId);
     }
 
