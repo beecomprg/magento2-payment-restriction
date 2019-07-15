@@ -40,4 +40,15 @@ class Checkout extends AbstractHelper
         return $this->frameworkHelper->getMapValueByValue(self::PATH_PAYMENT_MAP, $code, $storeId);
     }
 
+    public function isValidCombination($shippingMethod, $paymentMethod, $storeId = null){
+        $combinations = $this->getPaymentRestrictionByCode($shippingMethod, $storeId);
+        foreach ($combinations as $combination){
+            var_dump($combination);
+            if(isset($combination[$paymentMethod]) && $combination[$paymentMethod] === $shippingMethod){
+                return false; //combination not VALID
+            }
+        }
+        return true;
+    }
+
 }

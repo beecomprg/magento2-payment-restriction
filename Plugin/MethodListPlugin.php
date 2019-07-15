@@ -18,8 +18,7 @@ class MethodListPlugin
         if($this->helper->isEnabled($storeId) && $quote && $quote->getShippingAddress() && $quote->getShippingAddress()->getShippingMethod()){
             $shippingMethod = $quote->getShippingAddress()->getShippingMethod();
             foreach ($result as $key => $item) {
-                $test = $this->helper->getPaymentRestrictionByCode($shippingMethod, $storeId);
-                if(strpos($item->getCode(), $test) !== false){
+                if(!$this->helper->isValidCombination($shippingMethod, $item->getCode(), $storeId)){
                     unset($result[$key]);
                 }
             }
