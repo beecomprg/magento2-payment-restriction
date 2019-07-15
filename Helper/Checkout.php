@@ -43,7 +43,6 @@ class Checkout extends AbstractHelper
     public function isValidCombination($shippingMethod, $paymentMethod, $storeId = null){
         $combinations = $this->getPaymentRestrictionByCode($shippingMethod, $storeId);
         foreach ($combinations as $combination){
-            var_dump($combination);
             if(isset($combination[$paymentMethod]) && $combination[$paymentMethod] === $shippingMethod){
                 return false; //combination not VALID
             }
