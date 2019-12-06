@@ -1,5 +1,5 @@
 
-# Magento 2 Payment Restriction Module
+# Magento 2 Payment Restriction
 
 > Easily filter shipping and payment methods combinations during checkout
 
