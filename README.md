@@ -1,7 +1,7 @@
 
 # Magento 2 Payment Restriction
 
-> Easily filter shipping and payment methods combinations during checkout
+> Enable for your customers only certain combinations of shipping and payment methods
 
 > magento 2, magento, shipping, payment, checkout
 
